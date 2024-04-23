@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Café Mocha</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #F5F5F5;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        .hero {
+            background-image: url("background.jpg");
+            background-size: cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+        }
+        
+        .menu {
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .menu-item {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+        
+        .about {
+            padding: 40px;
+            background-color: #F5F5F5;
+            text-align: center;
+        }
+        
+        .contact {
+            padding: 40px;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: #F5F5F5;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Café Mocha Logo">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Welcome to Café Mocha</h1>
+        <p>Enjoy our delicious coffee and pastries!</p>
+    </section>
+    
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <img src="coffee1.jpg" alt="Coffee 1">
+            <h3>Coffee 1</h3>
+            <p>Description of Coffee 1</p>
+            <p>Price: $X.XX</p>
+        </div>
+        <div class="menu-item">
+            <img src="coffee2.jpg" alt="Coffee 2">
+            <h3>Coffee 2</h3>
+            <p>Description of Coffee 2</p>
+            <p>Price: $X.XX</p>
+        </div>
+        <!-- Add more menu items as needed -->
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Insert information about Café Mocha and its mission here.</p>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Café Mocha. All rights reserved.</p>
+        <p>Follow us on social media:</p>
+        <a href="https://instagram.com/cafemocha" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+        <a href="https://facebook.com/cafemocha" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com/cafemocha" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+    </footer>
+</body>
+</html>
